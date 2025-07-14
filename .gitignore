@@ -1,0 +1,38 @@
+# Ignore Python virtual environments
+venv/
+ENV/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore datasets if you don’t want to version control large files
+datasets/
+
+# Ignore environment and dependency files (optional)
+*.env
+*.venv
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore VSCode and PyCharm settings (if you use them)
+.vscode/
+.idea/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled SQL files if any
+*.sql~
+
+# General backup files
+*~
